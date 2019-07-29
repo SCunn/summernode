@@ -1,0 +1,30 @@
+<% include ../partials/header %>
+
+
+<div class="row">
+  <h1>Welcome to the add products page  <br>
+<div style="text-align: center; width: 100%; background-color: rgba(255, 255, 255, 0.8);text-align: center; margin-bottom: 10px;" >
+         <form accept-charset="UTF-8" style="display: inline-block; width: 90%;" action="/addproduct" method="post">    
+                <div class="item">
+                  <label for="name">Name</label>
+                    <input name="name" type="text" placeholder="Enter Product name" />
+                    
+                      <label for="activity">Acticity</label>
+                    <input name="activity" type="text" placeholder="Enter Activity" />
+                    
+                   <label for="price">Price</label> 
+                    <input name="price" type="text" placeholder="Enter Price" />
+                    
+                    <label for="image">image</label> 
+                    <input name="image" type="text" placeholder="Enter image" />
+                    
+<button class="button">Add</button>
+          </div>
+              </form>
+    </div>
+  </h1>
+</div>
+
+
+
+<% include ../partials/footer %>
